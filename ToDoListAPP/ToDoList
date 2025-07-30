@@ -1,9 +1,0 @@
-ToDoListApp/
-├── src/
-│   └── com/todo/          → Java source files (servlets, model)
-├── WebContent/
-│   ├── index.jsp          → Main page
-│   ├── style.css          → Basic styling
-├── WEB-INF/
-│   └── web.xml            → Servlet configuration
-hh
