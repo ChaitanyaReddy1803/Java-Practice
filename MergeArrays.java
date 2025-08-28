@@ -27,5 +27,10 @@ public class MergeArrays {
         for (int i = 0; i < n2; i++) {
             merged[n1 + i] = arr2[i];
         }
+
+        System.out.println("Merged Array:");
+        for (int num : merged) {
+            System.out.print(num + " ");
+        }
     }
 }
