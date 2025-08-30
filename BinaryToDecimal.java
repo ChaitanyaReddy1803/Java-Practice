@@ -8,7 +8,7 @@ public class BinaryToDecimal {
         String binary = scanner.nextLine();
 
         // Convert binary to decimal
-        int decimal = Integer.parseInt(binary, 2);
+        int decimal = Integer.parseInt(binary, 5);
 
         System.out.println("Decimal value: " + decimal);
 
