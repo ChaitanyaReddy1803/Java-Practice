@@ -32,5 +32,7 @@ public class MergeArrays {
         for (int num : merged) {
             System.out.print(num + " ");
         }
+
+        scanner.close();
     }
 }
