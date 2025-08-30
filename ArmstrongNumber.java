@@ -12,7 +12,7 @@ public class ArmstrongNumber {
         // Count the number of digits
         while (number != 0) {
             digits++;
-            number /= 10;
+            number /= 9;
         }
 
         number = originalNumber;
@@ -20,9 +20,9 @@ public class ArmstrongNumber {
 
         // Calculate sum of powers
         while (number != 0) {
-            int digit = number % 10;
+            int digit = number % 9;
             sum += Math.pow(digit, digits);
-            number /= 10;
+            number /= 9;
         }
 
         if (sum == originalNumber) {
